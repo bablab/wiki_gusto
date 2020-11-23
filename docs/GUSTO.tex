@@ -1,0 +1,180 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={GUSTO},
+  pdfauthor={By: Fran Querdasi, Bridget Callaghan},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{GUSTO}
+\author{By: Fran Querdasi, Bridget Callaghan}
+\date{Updated on: 2020-11-22}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{introduction}{%
+\chapter{Introduction}\label{introduction}}
+
+\hypertarget{information}{%
+\chapter{Information}\label{information}}
+
+\hypertarget{summary}{%
+\section{Summary}\label{summary}}
+
+This wiki includes information, notes and protocols on the BABLAB's secondary analysis of data from the GUSTO study.
+
+\hypertarget{abstract}{%
+\subsection{Abstract}\label{abstract}}
+
+\hypertarget{aims}{%
+\subsection{Aims}\label{aims}}
+
+Taken from the \href{https://ucla.app.box.com/file/740587024475}{proposal} submitted by Bridget describing the project.
+
+Aim 1a: Identify changes in the microbiome across the first 8 years of life.
+
+Aim 1b: Determine how these changes vary as a function of maternal childhood adversity, maternal prenatal mental health, maternal postpartum stressful life events, and child stressful life events in a community sample.
+
+\hypertarget{background}{%
+\subsection{Background}\label{background}}
+
+\href{http://www.gusto.sg/}{GUSTO} (Growing Up in Singapore Toward Healthy Outcomes) is a large birth cohort study conducted in Singapore. The primary aim of GUSTO is to understand how conditions in pregnancy and early childhood influence the health and development of women and children. The study now includes data on the children up to 8 years of age. Bridget learned about this study through \href{https://douglas.research.mcgill.ca/michael-meaney}{Michael Meaney}, and the BABLab was granted access to some of the data to analyze.
+
+Early life stress in both parents and children is associated with a higher incidence of youth mental health disorders, cognitive dysfunction, and altered neurobiology (Green et al.~2010; McLaughlin et al.~2010; Schickedanz et al.~2018; Callaghan et al.~2016; Callaghan et al.~2019; Gee et al.~2013). Studies in animals have indicated that early life stress also influences the gastrointestinal microbiome (Bailey and Coe 1999; Pusceddu et al.~2015), which is itself associated with emotionality, cognition and the brain (Vuong et al.~2017). (from the \href{https://ucla.app.box.com/file/740587024475}{proposal} submitted by Bridget describing this project)
+
+\hypertarget{collaborators}{%
+\subsection{Collaborators}\label{collaborators}}
+
+The BABLab has been communicating with the following GUSTO researchers about the data:
+
+\begin{itemize}
+\tightlist
+\item
+  Li Ting
+\end{itemize}
+
+The following people/groups have requested acknowledgement in publications with these data:
+
+\begin{itemize}
+\tightlist
+\item
+  The GUSTO Nutrition Team (for scoring child feeding practices, processing microbiome data)
+\end{itemize}
+
+Research mentors for Fran's 251 project include:
+
+\begin{itemize}
+\tightlist
+\item
+  Bridget Callaghan
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{measures}{%
+\section{Measures}\label{measures}}
+
+\hypertarget{stress}{%
+\subsection{Stress}\label{stress}}
+
+\hypertarget{gut-microbiome}{%
+\subsection{Gut Microbiome}\label{gut-microbiome}}
+
+\hypertarget{parenting}{%
+\subsection{Parenting}\label{parenting}}
+
+\hypertarget{diet-information}{%
+\subsection{Diet Information}\label{diet-information}}
+
+\hypertarget{covariates}{%
+\subsection{Covariates}\label{covariates}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{analyses}{%
+\section{Analyses}\label{analyses}}
+
+In aim 1, we will use 16s rRNA sequencing to determine the taxonomic composition of microbiota. First we will map how richness (number of observed operational taxonomic units; OTUs) changes across age, and as a function of maternal childhood adversity and prenatal stress using mixed effects modelling. We will also examine how diversity (differences in composition between individual -- using Unifrac phylogenetic distance metrics) differs as a function of within-individual age change, maternal childhood adversity and maternal prenatal stress using an unsupervised Principal Coordinates Analysis clustering approach. Finally, we will use Spearman rank correlation to determine which bacteria change monotonically with age, and maternal childhood and prenatal adversity. (from the \href{https://ucla.app.box.com/file/740587024475}{proposal} submitted by Bridget describing this project)
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+  \bibliography{book.bib,packages.bib,ref.bib}
+
+\end{document}
