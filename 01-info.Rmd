@@ -16,7 +16,20 @@ Aim 1b: Determine how these changes vary as a function of maternal childhood adv
 
 ### Background
 
+**GUSTO study background:**
+
 [GUSTO](http://www.gusto.sg/) (Growing Up in Singapore Toward Healthy Outcomes) is a large birth cohort study conducted in Singapore. The primary aim of GUSTO is to understand how conditions in pregnancy and early childhood influence the health and development of women and children. The study now includes data on the children up to 8 years of age. Bridget learned about this study through [Michael Meaney](https://douglas.research.mcgill.ca/michael-meaney), and the BABLab was granted access to some of the data to analyze. 
+
+**General BABLab GUSTO access background:**
+
+Gusto is a dataset accessed through Michael Meaney's group. It is *restricted access* so only BABLab staff and students with granted access may examine and analyze the data and write papers. 
+
+Bridget has an agreement with Dr. Meaney's group that she will be senior author on any publications to come out of this dataset for the Form A questions, and a student can be first author. There are certain members of Dr. Meaney's team (including Dr. Meaney) who will need to be middle authors on the manuscript.
+
+This dataset is also restricted use, which means that we can use it in the exact ways outlined in Form A. Any other use of the data will need to be preapproved through use of Form A. 
+
+
+**BABLab Microbiome Development & Stress project background:**
 
 Early life stress in both parents and children is associated with a higher incidence of youth mental health disorders, cognitive dysfunction, and altered neurobiology (Green et al. 2010; McLaughlin et al. 2010; Schickedanz et al. 2018; Callaghan et al. 2016; Callaghan et al. 2019; Gee et al. 2013). Studies in animals have indicated that early life stress also influences the gastrointestinal microbiome (Bailey and Coe 1999; Pusceddu et al. 2015), which is itself associated with emotionality, cognition and the brain (Vuong et al. 2017). (from the [proposal](https://ucla.app.box.com/file/740587024475) submitted by Bridget describing this project)
 
@@ -27,7 +40,7 @@ The BABLab has been communicating with the following GUSTO researchers about the
 * Li Ting
 
 
-The following people/groups have requested acknowledgement in publications with these data:
+The following people/groups have requested acknowledgment in publications with these data:
 
 * The GUSTO Nutrition Team (for scoring child feeding practices, processing microbiome data)
  
@@ -49,8 +62,6 @@ Research mentors for Fran's 251 project include:
 ### Diet Information
 
 ### Covariates
-
-Testing...
 
 -----------------
 
