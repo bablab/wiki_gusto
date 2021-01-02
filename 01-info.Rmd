@@ -2,7 +2,7 @@
 
 ## Summary
 
-This wiki includes information, notes and protocols on the BABLAB's secondary analysis of data from the GUSTO study.
+This wiki includes information, notes and protocols on the "Stress & Early Childhood Microbiome Development" analysis project. 
 
 ### Abstract
 
@@ -13,6 +13,8 @@ Taken from the [proposal](https://ucla.app.box.com/file/740587024475) submitted 
 Aim 1a: Identify changes in the microbiome across the first 8 years of life.
 
 Aim 1b: Determine how these changes vary as a function of maternal childhood adversity, maternal prenatal mental health, maternal postpartum stressful life events, and child stressful life events in a community sample. 
+
+Aim 1c: Determine whether children’s gut microbiome composition prospectively predicts symptoms of psychopathology and gastrointestinal distress, as well as a change in symptoms across time. 
 
 ### Background
 
@@ -29,15 +31,20 @@ Bridget has an agreement with Dr. Meaney's group that she will be senior author 
 This dataset is also restricted use, which means that we can use it in the exact ways outlined in Form A. Any other use of the data will need to be preapproved through use of Form A. 
 
 
-**BABLab Microbiome Development & Stress project background:**
+**BABLab Stress & Early Childhood Microbiome Development project background:**
 
-Early life stress in both parents and children is associated with a higher incidence of youth mental health disorders, cognitive dysfunction, and altered neurobiology (Green et al. 2010; McLaughlin et al. 2010; Schickedanz et al. 2018; Callaghan et al. 2016; Callaghan et al. 2019; Gee et al. 2013). Studies in animals have indicated that early life stress also influences the gastrointestinal microbiome (Bailey and Coe 1999; Pusceddu et al. 2015), which is itself associated with emotionality, cognition and the brain (Vuong et al. 2017). (from the [proposal](https://ucla.app.box.com/file/740587024475) submitted by Bridget describing this project)
+Early life stress (ELS) in both parents and children is associated with a higher incidence of youth mental health disorders, cognitive dysfunction, and altered neurobiology (Green et al. 2010; McLaughlin et al. 2010; Schickedanz et al. 2018; Callaghan et al. 2016; Callaghan et al. 2019; Gee et al. 2013). Studies in animals have indicated that early life stress also influences the gastrointestinal microbiome (Bailey and Coe 1999; Pusceddu et al. 2015), which is itself associated with emotionality, cognition and the brain (Vuong et al. 2017). (from the [proposal](https://ucla.app.box.com/file/740587024475) submitted by Bridget describing this project)
+
+Previous research has documented that ELS is associated with altered composition of the gut microbiome in childhood (Callaghan et al., 2019), and that the period of maximal sensitivity of the gut microbiome to environmental influence extends until around the fourth year of life (Yaksunenko et al., 2012). Within this early life “sensitive period”, in addition to adversity experienced by the child from birth to 4 years, prenatal adversity exposure in the form of maternal psychiatric symptoms during pregnancy has been associated with gut microbiome composition (Hu et al., 2019). Finally, composition of the maternal microbiome, which is associated with composition in their newborns, has been found to differ as a function of mothers’ own ELA exposure (Hantsoo et al., 2019). However, studies have not investigated whether the timing of adversity occurrence within the large early life “sensitive period” (i.e., mothers’ ELA vs. prenatal adversity vs. post-birth adversity) influences the magnitude of effect it exerts on the gut microbiome. 
+
+While gut microbiome composition has been associated with mental illness across the lifespan (O'Mahony et al., 2017), another open question concerns whether differences in gut microbiome composition can predict mental health outcomes in childhood. A recent cross-sectional study of 5-7-year-old children found that gut microbiome composition was associated with concurrent symptoms of internalizing and externalizing psychopathology (Flannery et al., 2020); however, longitudinal studies evaluating whether gut microbiome composition can predict future symptom course have not yet been conducted. 
 
 ### Collaborators
 
 The BABLab has been communicating with the following GUSTO researchers about the data: 
 
-* Li Ting
+* Li Ting (general information and requesting data)
+* Neerja Karnani (microbiome data)
 
 
 The following people/groups have requested acknowledgment in publications with these data:
@@ -48,6 +55,13 @@ The following people/groups have requested acknowledgment in publications with t
 Research mentors for Fran's 251 project include: 
 
 * Bridget Callaghan 
+* Andrew Fuligni
+
+-----------------
+
+## Significance/Impact
+
+The scale and scope of data analyzed in this study (i.e., a longitudinal investigation of more than 400 mother-child dyads with microbiome data) is unprecedented; the scant developmental research on these topics has been cross-sectional and included less than 200 participants.  This project will provide novel insights into how relationships between ELA exposure, the gut microbiome, and mental health symptomatology unfold across early childhood. This information will significantly increase precision in the field’s understanding of how ELA influences gut microbiome composition and will potentially establish longitudinal links between gut microbiome composition and child mental health for the first time.        
 
 -----------------
 
@@ -55,13 +69,27 @@ Research mentors for Fran's 251 project include:
 
 ### Stress
 
+**Mothers’ ELS:** When their children were 4 years old, mothers retrospectively reported on their own experiences of childhood maltreatment using the Childhood Trauma Questionnaire. 
+
+**Maternal Prenatal Psychopathology:** At 26 weeks’ gestation, mothers reported their state (current) and trait (typical) anxiety levels using the State-Trait Anxiety Inventory, and their recent depressive symptoms using the Beck Depression Inventory. We will use a sum score across all measures to index maternal symptoms of psychopathology during pregnancy - i.e., child prenatal ELS. 
+
+**Children's Postnatal ELS:** When their children were 4.5 years of age, mothers reported on the stressful life events their children had experienced (e.g., death of a family member, hospital stay) up to that point in their life, as well as the date that each event occurred, using the Life Experiences Questionnaire. To compute a measure of ELA experienced by children concurrent with their provided age 4 microbiome sample, we excluded any events that occurred after the date that each child collected the stool sample from that timepoint. 
+
 ### Gut Microbiome
+
+Stool samples were obtained from each child at the following timepoints: 1 Week, 3 Weeks, 3 Months, 6 Months, 1 Year, 2 Years, 4 Years, and 8 Years of age. Samples were then sequenced using 16s rRNA (a marker of bacterial DNA). From this sequencing information, we will compute two taxonomic metrics to assess gut microbiome composition: alpha diversity (number of different bacterial groups present within an individual), and beta diversity (amount of overlap among bacterial groups between individuals). We may also compute additional metrics.  
 
 ### Parenting
 
 ### Diet Information
 
 ### Covariates
+
+Associated with gut microbiome composition in previous research: 
+
+- Mode of delivery (cesarean section vs. vaginal birth)
+- Breastfeeding status
+- Ethnicity ([study](https://www.tandfonline.com/doi/full/10.1080/19490976.2020.1756150))
 
 -----------------
 

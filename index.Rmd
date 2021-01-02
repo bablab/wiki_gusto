@@ -1,5 +1,5 @@
 --- 
-title: "GUSTO"
+title: "Stress & Early Childhood Microbiome Development: Analysis of Data from the GUSTO Study"
 author: "By: Fran Querdasi, Bridget Callaghan"
 date: "Updated on: `r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -13,6 +13,10 @@ description: "Brief description"
 ---
 
 # Introduction
+
+----------
+
+This wiki contains information on the BABLab's analysis of data from the GUSTO Study relating to Fran's 251 research project, titled "Stress & Early Childhood Microbiome Development". 
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
