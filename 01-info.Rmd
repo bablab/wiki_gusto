@@ -18,7 +18,7 @@ Aim 1b: Determine how these changes vary as a function of maternal childhood adv
 
 **GUSTO study background:**
 
-[GUSTO](http://www.gusto.sg/) (Growing Up in Singapore Toward Healthy Outcomes) is a large birth cohort study conducted in Singapore. The primary aim of GUSTO is to understand how conditions in pregnancy and early childhood influence the health and development of women and children. The study now includes data on the children up to 8 years of age. Bridget learned about this study through [Michael Meaney](https://douglas.research.mcgill.ca/michael-meaney), and the BABLab was granted access to some of the data to analyze. 
+[GUSTO](http://www.gusto.sg/) (Growing Up in Singapore Toward Healthy Outcomes) is a large birth cohort study conducted in Singapore. The primary aim of GUSTO is to understand how conditions in pregnancy and early childhood influence the health and development of women and children. The study now includes data on the children up to 8 years of age. Bridget learned about this study through [Michael Meaney](https://douglas.research.mcgill.ca/michael-meaney), and the BABLab was granted access to some of the data to analyze. test
 
 **General BABLab GUSTO access background:**
 
